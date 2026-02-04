@@ -1,6 +1,7 @@
 # 📄 Hybrid PDF Translator (Local LLM & Google Cloud)
 
 A high-performance PDF translating tool (English -> Spanish) designed to handle everything from small private files to extensive academic papers (200+ pages) while preserving the original layout and structure.
+<img width="1919" height="898" alt="imagen" src="https://github.com/user-attachments/assets/af1bf009-ebd4-41af-a6d9-07819ae96fef" />
 
 ## 🚀 Features
 
