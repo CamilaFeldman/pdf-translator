@@ -60,3 +60,15 @@ The system offers two distinct translation engines:
 ## 🛡️ Security Note
 
 This project uses **Application Default Credentials (ADC)**. 
+
+## 🐳 Docker & NAS Deployment
+
+This project includes a `Dockerfile` because it is designed to be **containerized**. 
+
+While you can run it locally for development, the ultimate goal is to migrate the application to a **NAS (Network Attached Storage)** using Docker/Container Station. This allows:
+- **24/7 Availability:** The translator stays accessible to anyone on the local network without keeping a PC turned on.
+- **Resource Management:** Runs in an isolated environment, ensuring dependencies don't conflict with the NAS operating system.
+- **Self-Hosting:** Complete control over your tools and data.
+
+To build the image:
+```docker build -t pdf-translator```
