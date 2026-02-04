@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  traductor:
+    build: .
+    ports:
+      - "8501:8501"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
